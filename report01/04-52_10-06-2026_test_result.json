@@ -1,0 +1,432 @@
+{
+  "warning": [
+    {
+      "animations": {
+        "obtained": 27.928699999989476,
+        "obtained_to_display": "27.928699999989476 ms",
+        "thresholds": {
+          "warning": {
+            "operator": ">",
+            "value": 16.67
+          }
+        }
+      }
+    },
+    {
+      "fps_avg": {
+        "obtained": 6.0,
+        "obtained_to_display": "6.0",
+        "thresholds": {
+          "moderate": {
+            "operator": "<",
+            "value": 60
+          },
+          "warning": {
+            "operator": "<",
+            "value": 30
+          }
+        }
+      }
+    },
+    {
+      "janks": {
+        "obtained": 326.0,
+        "obtained_to_display": "326.0",
+        "thresholds": {
+          "warning": {
+            "operator": ">",
+            "value": 50
+          }
+        }
+      }
+    },
+    {
+      "layout_measure_time": {
+        "obtained": 87.88040000002366,
+        "obtained_to_display": "87.88040000002366 ms",
+        "thresholds": {
+          "warning": {
+            "operator": ">",
+            "value": 16.67
+          }
+        }
+      }
+    },
+    {
+      "events": []
+    }
+  ],
+  "moderate": [
+    {
+      "device_memory_pss_avg": {
+        "obtained": 2407659.2,
+        "obtained_to_display": "2407.6592 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 2000
+          },
+          "warning": {
+            "operator": ">",
+            "value": 4000
+          }
+        }
+      }
+    },
+    {
+      "energy_score_avg": {
+        "obtained": 488.9,
+        "obtained_to_display": "488.9 pts",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 250
+          },
+          "warning": {
+            "operator": ">",
+            "value": 500
+          }
+        }
+      }
+    },
+    {
+      "events": []
+    }
+  ],
+  "pass": [
+    {
+      "app_cpu_avg": {
+        "obtained": 57.7,
+        "obtained_to_display": "57.7 %",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 200
+          },
+          "warning": {
+            "operator": ">",
+            "value": 400
+          }
+        }
+      }
+    },
+    {
+      "app_cpu_max": {
+        "obtained": 80.0,
+        "obtained_to_display": "80.0 %",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 200
+          },
+          "warning": {
+            "operator": ">",
+            "value": 400
+          }
+        }
+      }
+    },
+    {
+      "app_memory_pss_avg": {
+        "obtained": 98845.8,
+        "obtained_to_display": "98.8458 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 256
+          },
+          "warning": {
+            "operator": ">",
+            "value": 400
+          }
+        }
+      }
+    },
+    {
+      "app_memory_pss_max": {
+        "obtained": 125014.0,
+        "obtained_to_display": "125.014 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 400
+          },
+          "warning": {
+            "operator": ">",
+            "value": 512
+          }
+        }
+      }
+    },
+    {
+      "app_size": {
+        "obtained": 38324480.0,
+        "obtained_to_display": "38.32448 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 52
+          },
+          "warning": {
+            "operator": ">",
+            "value": 100
+          }
+        }
+      }
+    },
+    {
+      "crash_count": {
+        "obtained": 0,
+        "obtained_to_display": "0.0",
+        "thresholds": {
+          "warning": {
+            "operator": ">=",
+            "value": 1
+          }
+        }
+      }
+    },
+    {
+      "device_cpu_avg": {
+        "obtained": 300.6,
+        "obtained_to_display": "300.6 %",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 400
+          },
+          "warning": {
+            "operator": ">",
+            "value": 500
+          }
+        }
+      }
+    },
+    {
+      "device_cpu_max": {
+        "obtained": 386.0,
+        "obtained_to_display": "386.0 %",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 400
+          },
+          "warning": {
+            "operator": ">",
+            "value": 700
+          }
+        }
+      }
+    },
+    {
+      "device_memory_footprint_avg": {
+        "obtained": 2407659.2,
+        "obtained_to_display": "2.296122741699219 MiB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 2000
+          },
+          "warning": {
+            "operator": ">",
+            "value": 4000
+          }
+        }
+      }
+    },
+    {
+      "device_memory_footprint_max": {
+        "obtained": 2447680.0,
+        "obtained_to_display": "2.33428955078125 MiB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 4000
+          },
+          "warning": {
+            "operator": ">",
+            "value": 5000
+          }
+        }
+      }
+    },
+    {
+      "device_memory_pss_max": {
+        "obtained": 2447680.0,
+        "obtained_to_display": "2447.68 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 4000
+          },
+          "warning": {
+            "operator": ">",
+            "value": 6000
+          }
+        }
+      }
+    },
+    {
+      "draw_time": {
+        "obtained": -0.2452999999804888,
+        "obtained_to_display": "-0.2452999999804888 ms",
+        "thresholds": {
+          "warning": {
+            "operator": ">",
+            "value": 16.67
+          }
+        }
+      }
+    },
+    {
+      "input_events": {
+        "obtained": 0.27799999999115244,
+        "obtained_to_display": "0.27799999999115244 ms",
+        "thresholds": {
+          "warning": {
+            "operator": ">",
+            "value": 16.67
+          }
+        }
+      }
+    },
+    {
+      "max_sqlite_performed_query": {
+        "obtained": 1.0,
+        "obtained_to_display": "1.0 ms",
+        "thresholds": {
+          "moderate": {
+            "operator": ">=",
+            "value": 100
+          },
+          "warning": {
+            "operator": ">=",
+            "value": 500
+          }
+        }
+      }
+    },
+    {
+      "net_receive_total": {
+        "obtained": 2803848.0,
+        "obtained_to_display": "2.803848 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 20
+          },
+          "warning": {
+            "operator": ">",
+            "value": 31
+          }
+        }
+      }
+    },
+    {
+      "net_transfer_total": {
+        "obtained": 48095.0,
+        "obtained_to_display": "0.048095 MB",
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 52
+          },
+          "warning": {
+            "operator": ">",
+            "value": 104
+          }
+        }
+      }
+    },
+    {
+      "events": []
+    }
+  ],
+  "skipped": [
+    {
+      "total_frames_rendered": {
+        "obtained": 494.0,
+        "obtained_to_display": "494.0"
+      }
+    }
+  ],
+  "missing": [
+    {
+      "app_memory_footprint_avg": {
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 256
+          },
+          "warning": {
+            "operator": ">",
+            "value": 384
+          }
+        }
+      }
+    },
+    {
+      "app_memory_footprint_max": {
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 384
+          },
+          "warning": {
+            "operator": ">",
+            "value": 512
+          }
+        }
+      }
+    },
+    {
+      "app_memory_resident_size_avg": {
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 332
+          },
+          "warning": {
+            "operator": ">",
+            "value": 512
+          }
+        }
+      }
+    },
+    {
+      "app_memory_resident_size_max": {
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 512
+          },
+          "warning": {
+            "operator": ">",
+            "value": 665
+          }
+        }
+      }
+    },
+    {
+      "startup_time_top": {
+        "thresholds": {
+          "moderate": {
+            "operator": ">",
+            "value": 500
+          },
+          "warning": {
+            "operator": ">",
+            "value": 2000
+          }
+        }
+      }
+    },
+    {
+      "events": [
+        "Add to cart",
+        "Force CPU",
+        "Network Usage"
+      ]
+    }
+  ]
+}
